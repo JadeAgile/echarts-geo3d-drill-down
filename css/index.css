@@ -1,0 +1,34 @@
+
+body{
+    height: 98vh;
+	background:url(../asset/images/bg-line.png),linear-gradient(-180deg, #00194c 0%, #004a95 60%,#0082cd 100%);
+	color: rgba(161, 205, 255,0.8);
+}
+.box {
+    width: 100%;
+    height: 100%;
+}
+
+.chart{
+	width: 100%;
+	height: 100%;
+}
+.backBtn{
+    position: absolute;
+    top:90px;
+    height: 34px;
+    font-family: Microsoft Yahei;
+    font-size: 16px;
+    cursor: pointer;
+	color: #4da1ff;
+	border-color: #4da1ff;
+	background: none;
+	border: 1px solid #1e87f0;
+	border-radius: 4px;
+	z-index: 1000;
+}
+.backBtn:hover{
+	background: rgba(26,125,236,0.5);
+	color: #fff;
+	border-color: #4da1ff;
+}
